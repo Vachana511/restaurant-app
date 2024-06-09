@@ -1,0 +1,124 @@
+body {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #c2764b;
+    color: #130d0d;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #0a0606;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#hero {
+    background-color: #913b3b;
+    text-align: center;
+    padding: 100px 0;
+}
+#hero h2 {
+    margin: 0;
+}
+#Cuisine {
+    background-color: #913b3b;
+    text-align: center;
+    padding: 100px 0;
+}
+#Bookings {
+    padding-top: 20px;;
+    background-color: #913b3b;
+    text-align: center;
+    padding: 100px 0;
+}
+#contact {
+    background-color: #913b3b;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c2764b;
+    color: #d1bfbf;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: #c2764b;
+    color: #d1bfbf;
+    text-align: center;
+    padding: 100px 0;
+}
+
+section:hover {
+    background-color: #f0f0f0;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+    transition: color 0.3s ease;
+}
+.btn:hover {
+    background-color: #705b5b;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+.image-container{
+    float:left;
+    margin-right: 20px;
+    border-radius: 5%;
+    
+    overflow:hidden;
+}
+.img2{
+    float:right;
+    margin-top: 20px;
+    border-radius: 50%;
+    overflow:hidden;
+}
+.Cuisine{
+    width:200px;
+    height:200px;
+    border-radius:50x;
+}
+.Cuisine textarea{
+    
+    padding:20px;
+    box-sizing: border-box;
+    border:none;
+    background-color: #c2764b;
+}
